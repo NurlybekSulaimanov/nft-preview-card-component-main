@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.card-container{
+    max-width: 250px;
+    max-height: 450px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+}
+.img-eq{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -270px;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    height: 251px;
+    margin-bottom: -250px;
+    border-radius: 15px;
+    display: none;
+}
+.img-eq:hover + .icon-container{
+    cursor: pointer;
+    display: flex;
+}
+.icon-view{
+    max-width: 30px;
+    max-height: 30px;
+
+}
+.eq-num{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.eq-num:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.eq-desc{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.eth-days{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.eth{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+.ether{
+    margin-right: 5px;
+}
+.days{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+.clock{
+    margin-right: 5px;
+}
+
+.creator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+.name{
+    margin-left: 5px;
+    color: white;
+}
+.name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);;
+}
+.line{
+    margin-bottom: 15px;
+    border: 1px solid hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%);
+}
+.avatar{
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
